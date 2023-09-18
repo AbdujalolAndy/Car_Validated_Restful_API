@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(to bottom left,red,blue);
+    height:100vh;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    background-color: aliceblue;
+    text-align: center;
+    border:10px solid rgb(121, 116, 116);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.wrapper *{
+    padding: 10px;
+}
+
+h1{
+    background: -webkit-linear-gradient(right,red,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header,footer{
+    background-color: antiquewhite;
+}
